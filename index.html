@@ -18,14 +18,15 @@
   </div>
   <div class="right">
     <header>
-      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</p>
-      <p>You know you want to.</p>
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+      <p>Sign up now to get started</p>
+      <p>You <i>know</i> you want to.</p>
     </header>
-    <section>
+    <section class="form-section">
       <h1>Let's do this!</h1>
-      <form action="">
+      <form action="" method="post" id="form">
         <label for="fname">FIRST NAME</label>
-        <input type="text" name="first-name" id="fname">
+        <input type="text" name="first-name" id="fname" required>
         <label for="lname">LAST NAME</label>
         <input type="text" name="last-name" id="lname">
         <label for="mail">FIRST NAME</label>
@@ -39,7 +40,7 @@
       </form>
     </section>
     <section>
-      <button type="submit">Create Account</button>
+      <button type="submit" form="form">Create Account</button>
       <p>
         <span>Already have an account?</span>
         <span><a href="">Log in</a></span>
