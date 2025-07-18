@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up Form</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <div class="sidebar">
+    <div class="logo-area">
+      <img src="./images/odin-lined.png" alt="" >
+      <p>odin</p>
+    </div>
+    <p class="photo-credit">
+      Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    </p>
+  </div>
+  <div class="right">
+    <header>
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</p>
+      <p>You know you want to.</p>
+    </header>
+    <section>
+      <h1>Let's do this!</h1>
+      <form action="">
+        <label for="fname">FIRST NAME</label>
+        <input type="text" name="first-name" id="fname">
+        <label for="lname">LAST NAME</label>
+        <input type="text" name="last-name" id="lname">
+        <label for="mail">FIRST NAME</label>
+        <input type="email" name="email" id="mail">
+        <label for="phone">PHONE NUMBER</label>
+        <input type="tel" name="phone-number" id="phone">
+        <label for="pwd">PASSWORD</label>
+        <input type="password" name="password" id="pwd">
+        <label for="confirm-pwd">CONFIRM PASSWORD</label>
+        <input type="password" name="confirm-password" id="confirm-pwd">
+      </form>
+    </section>
+    <section>
+      <button type="submit">Create Account</button>
+      <p>
+        <span>Already have an account?</span>
+        <span><a href="">Log in</a></span>
+      </p>
+    </section>
+  </div>
 </body>
 </html>
