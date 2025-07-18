@@ -18,3 +18,48 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+@font-face {
+    font-family: my-font;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+.sidebar {
+    background-image: url(./images/greenery.jpg);
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: end;
+    align-items: center;
+    gap: 65vh;
+    width: 1000px;
+}
+
+.logo-area {
+    font-family: my-font;
+    background-color: #0004;
+    display: flex;
+    align-items: center;
+}
+
+.logo-area p {
+    font-size: 80px;
+}
+
+.photo-credit a {
+    color: #fff;
+}
+
+.photo-credit {
+    font-size: 0.9rem;
+    font-weight: 100;
+}
