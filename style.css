@@ -24,10 +24,6 @@ time, mark, audio, video {
     src: url(./fonts/Norse-Bold.otf);
 }
 
-.sidebar {
-    background-image: url(./images/greenery.jpg);
-}
-
 body {
     display: flex;
     height: 100vh;
@@ -38,9 +34,9 @@ body {
 }
 
 .sidebar {
+    background-image: url(./images/greenery.jpg);
     display: flex;
     flex-direction: column;
-    color: white;
     justify-content: end;
     align-items: center;
     gap: 65vh;
@@ -58,13 +54,17 @@ body {
     font-size: 80px;
 }
 
-.photo-credit a {
-    color: #fff;
+.photo-credit a, 
+.sidebar, 
+.photo-credit, 
+button {
+    color: #eee;
 }
 
 .photo-credit {
     font-size: 0.9rem;
     font-weight: 100;
+    margin-bottom: 15px;
 }
 
 .right {
@@ -102,4 +102,19 @@ form * {
     display: flex;
     flex-direction: column;
     flex: 0 0 40%;
+}
+
+button {
+    background-color: green;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+section:last-child a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
 }
